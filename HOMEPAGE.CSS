@@ -1,0 +1,61 @@
+body {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+  }
+  
+  h1, h2 {
+    font-weight: normal;
+  }
+  
+  /* Style container */
+  .container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 15px;
+  }
+  
+  /* Style sign out button */
+  button {
+    background-color: #c3489a;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  /* Style form inputs and create user button */
+  label {
+    display: block;
+    margin-top: 10px;
+  }
+  
+  input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+  }
+  
+  button[type=button] {
+    background-color: #644bde;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius:2px;
+    cursor: pointer;
+    margin-top: 10px;
+    -webkit-border-radius:2px;
+    -moz-border-radius:2px;
+    -ms-border-radius:2px;
+    -o-border-radius:2px;
+}
+  
+  /* Style success message */
+  #success-message {
+    color: rgb(222, 108, 203);
+    margin-top: 10px;
+  }
